@@ -11,14 +11,12 @@ public class UILogic : MonoBehaviour
     {
         PlayerCollision.PlayerFallsInPit += ShowLoseScreen;
         SoulLogic.SoulShattered += ShowLoseScreen;
-        //LineLogic.SoulLineBroke += ShowLoseScreen;
         SoulLogic.SoulInElevator += ShowWinScreen;
     }
     private void OnDisable()
     {
         PlayerCollision.PlayerFallsInPit -= ShowLoseScreen;
         SoulLogic.SoulShattered -= ShowLoseScreen;
-        //LineLogic.SoulLineBroke -= ShowLoseScreen;
         SoulLogic.SoulInElevator -= ShowWinScreen;
     }
 

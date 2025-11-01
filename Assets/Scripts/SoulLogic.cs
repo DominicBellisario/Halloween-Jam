@@ -26,7 +26,7 @@ public class SoulLogic : MonoBehaviour
         if (collision.gameObject.CompareTag("Blocker"))
         {
             // soul shatters, player loses
-            SoulShattered.Invoke();
+            SoulShattered?.Invoke();
         }
     }
 
@@ -36,7 +36,7 @@ public class SoulLogic : MonoBehaviour
         if (collision.gameObject.CompareTag("Elevator"))
         {
             // player wins
-            SoulInElevator.Invoke();
+            SoulInElevator?.Invoke();
         }
     }
 }
