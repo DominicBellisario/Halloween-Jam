@@ -536,13 +536,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 206826604493603623, guid: f918ab3216839404ca77fd743aefffd4, type: 3}
+      propertyPath: soul
+      value: 
+      objectReference: {fileID: 257415922}
+    - target: {fileID: 206826604493603623, guid: f918ab3216839404ca77fd743aefffd4, type: 3}
+      propertyPath: player1
+      value: 
+      objectReference: {fileID: 1320458318}
+    - target: {fileID: 206826604493603623, guid: f918ab3216839404ca77fd743aefffd4, type: 3}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 298305321}
     - target: {fileID: 369539828738719234, guid: f918ab3216839404ca77fd743aefffd4, type: 3}
       propertyPath: m_Name
       value: Main Camera
-      objectReference: {fileID: 0}
-    - target: {fileID: 2580245625126195628, guid: f918ab3216839404ca77fd743aefffd4, type: 3}
-      propertyPath: orthographic
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2896884469511872976, guid: f918ab3216839404ca77fd743aefffd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -587,10 +595,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 369539828738719234, guid: f918ab3216839404ca77fd743aefffd4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 655623115}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f918ab3216839404ca77fd743aefffd4, type: 3}
 --- !u!1 &429438693
 GameObject:
@@ -1156,28 +1161,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &655623110 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 369539828738719234, guid: f918ab3216839404ca77fd743aefffd4, type: 3}
-  m_PrefabInstance: {fileID: 407536317}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &655623115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 655623110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30ad057504f96794fae01fd48712ff35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player1: {fileID: 1320458318}
-  player2: {fileID: 298305321}
-  soul: {fileID: 257415922}
-  minSize: 5
-  border: 1
 --- !u!1 &733634849
 GameObject:
   m_ObjectHideFlags: 0
