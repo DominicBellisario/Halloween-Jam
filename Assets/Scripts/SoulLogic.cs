@@ -18,6 +18,7 @@ public class SoulLogic : MonoBehaviour
 
         // move the ball to this position
         transform.position = new Vector3(middlePositionX, middlePositionY, 0);
+        Debug.Log(Time.timeScale);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
