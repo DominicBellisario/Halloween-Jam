@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 922185326205431834, guid: 703ec2b9750ba35428788f28c718f5ea, type: 3}
       propertyPath: m_DefaultActionMap
-      value: b640f6c4-5c95-4c28-8447-301b6ce4bb03
+      value: Player 2
       objectReference: {fileID: 0}
     - target: {fileID: 1208424209745856471, guid: 703ec2b9750ba35428788f28c718f5ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.92
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1208424209745856471, guid: 703ec2b9750ba35428788f28c718f5ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.65
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1208424209745856471, guid: 703ec2b9750ba35428788f28c718f5ea, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4341346137398087366, guid: 703ec2b9750ba35428788f28c718f5ea, type: 3}
       propertyPath: m_Name
-      value: Player 2 Variant
+      value: Player 2
       objectReference: {fileID: 0}
     - target: {fileID: 5721793172511360263, guid: 703ec2b9750ba35428788f28c718f5ea, type: 3}
       propertyPath: m_Color.b
