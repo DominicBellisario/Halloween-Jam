@@ -2571,6 +2571,10 @@ PrefabInstance:
       propertyPath: player2
       value: 
       objectReference: {fileID: 298305321}
+    - target: {fileID: 6724830027754140507, guid: d7113612770cdbf43852f96a26344a4c, type: 3}
+      propertyPath: maxDistance
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
