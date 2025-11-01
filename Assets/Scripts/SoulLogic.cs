@@ -18,7 +18,6 @@ public class SoulLogic : MonoBehaviour
 
         // move the ball to this position
         transform.position = new Vector3(middlePositionX, middlePositionY, 0);
-        Debug.Log(Time.timeScale);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -29,12 +28,8 @@ public class SoulLogic : MonoBehaviour
             // soul shatters, player loses
             SoulShattered?.Invoke();
         }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
         // Soul enters the elevator
-        if (collision.gameObject.CompareTag("Elevator"))
+        else if (collision.gameObject.CompareTag("Elevator"))
         {
             // player wins
             SoulInElevator?.Invoke();
