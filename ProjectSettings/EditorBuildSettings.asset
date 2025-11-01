@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Player Movement.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 2797a73aad344f94fb1a8cdf90e0893c
+  - enabled: 1
+    path: Assets/Scenes/Obstacles_Creation.unity
+    guid: fc22a13f8e1ca2b4ebead8edfe27f0cc
+  - enabled: 1
+    path: Assets/Scenes/Test_Scene.unity
+    guid: 8bdae22acc77baf4aafab55281614551
+  - enabled: 1
+    path: Assets/Scenes/tutorial_Level.unity
+    guid: e3ac6708235ff664dbb17380a2460c93
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
