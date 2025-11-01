@@ -5,13 +5,13 @@ TagManager:
   serializedVersion: 3
   tags:
   - Blocker
-  - Soul_Link
   - Pit
+  - Elevator
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Soul_Link
+  - 
   - Water
   - UI
   - 

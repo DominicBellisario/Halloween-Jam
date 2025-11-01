@@ -17,8 +17,16 @@ public class SceneHelper : MonoBehaviour
         DontDestroyOnLoad(gameObject); // Keep across scenes
     }
 
+    // load a scene with the given name
     public void LoadScene(string sceneName)
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene(sceneName);
+    }
+
+    // load the scene that is currently loaded, resetting it
+    public void ReloadScene()
+    {
+        LoadScene(SceneManager.GetActiveScene().name);
     }
 }

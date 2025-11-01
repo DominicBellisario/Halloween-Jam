@@ -16,6 +16,5 @@ public class LineLogic : MonoBehaviour
     {
         line.SetPosition(0, player1.position - transform.position);
         line.SetPosition(1, player2.position - transform.position);
-
     }
 }
