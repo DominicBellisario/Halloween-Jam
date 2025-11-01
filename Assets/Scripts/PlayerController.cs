@@ -12,13 +12,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float friction;
 
     Transform playerTransform;
+    Rigidbody2D rb;
     // the current vector representing what movement keys are pressed
     Vector3 currentInput;
-    // the current speed applied to the player transform each frame
-    Vector3 currentSpeed;
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         playerTransform = gameObject.transform;
     }
 
@@ -36,16 +36,16 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        // apply any movement from the movement keys
-        currentSpeed += acceleration * Time.deltaTime * currentInput;
+        // calculate the force applied to the player this frame
+        Vector3 force = acceleration * Time.deltaTime * currentInput;
 
-        // reduce the speed: barebones friction
-        if (currentInput == Vector3.zero) { currentSpeed -= friction * Time.deltaTime * currentSpeed; }
+        // apply the force
+        rb.AddForce(force);
 
         // player speed cannot go above max speed
-        currentSpeed = Vector3.ClampMagnitude(currentSpeed, maxSpeed);
+        rb.linearVelocity = Vector2.ClampMagnitude(rb.linearVelocity, maxSpeed);
 
-        // update the player position
-        playerTransform.position += currentSpeed * Time.deltaTime;
+        // reduce the speed: barebones friction
+        if (currentInput == Vector3.zero) { rb.linearVelocity -= friction * Time.deltaTime * rb.linearVelocity; }
     }
 }
