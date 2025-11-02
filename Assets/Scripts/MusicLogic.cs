@@ -2,15 +2,42 @@ using UnityEngine;
 
 public class MusicLogic : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] AudioSource music;
+    [SerializeField] AudioSource pit;
+    [SerializeField] AudioSource shatter;
+    [SerializeField] AudioSource elevator;
+
+    private void OnEnable()
     {
-        
+        PlayerCollision.PlayerFallsInPit += PitSounds;
+        SoulLogic.SoulShattered += ShatterSounds;
+        SoulLogic.SoulInElevator += ElevatorSounds;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        PlayerCollision.PlayerFallsInPit -= PitSounds;
+        SoulLogic.SoulShattered -= ShatterSounds;
+        SoulLogic.SoulInElevator -= ElevatorSounds;
     }
+
+    private void PitSounds()
+    {
+        music.Stop();
+        pit.Play();
+    }
+
+    private void ShatterSounds()
+    {
+        music.Stop();
+        shatter.Play();
+    }
+
+    private void ElevatorSounds()
+    {
+        music.Stop();
+        elevator.Play();
+    }
+
+
 }
