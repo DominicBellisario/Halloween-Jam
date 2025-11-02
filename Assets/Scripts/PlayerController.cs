@@ -11,15 +11,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float acceleration;
     [SerializeField] float friction;
 
-    Transform playerTransform;
     Rigidbody2D rb;
+    AudioSource audioSource;
+
     // the current vector representing what movement keys are pressed
     Vector3 currentInput;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        playerTransform = gameObject.transform;
+        audioSource = GetComponent<AudioSource>();
     }
 
     /// <summary>
