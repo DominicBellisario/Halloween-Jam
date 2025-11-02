@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3f015c9a1e0a46e4ca3f1e8b7e16e18c
+guid: b8f86959ec3038f4688619d9dcb3f713
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7119237572562303235
-    second: Desk_1_0
+      213: -6366383594555000197
+    second: 4TUT_out_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 512
+  spritePixelsToUnits: 720
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,23 +152,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Desk_1_0
+      name: 4TUT_out_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 511
-        height: 512
+        x: 121
+        y: 122
+        width: 442
+        height: 237
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df64fc7a523633d90800000000000000
-      internalID: -7119237572562303235
+      spriteID: b7abcaee9df06a7a0800000000000000
+      internalID: -6366383594555000197
       vertices: []
       indices: 
       edges: []
@@ -177,7 +177,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e174befe1d2206f4a977a6c8bf8f2cd1
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -187,7 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Desk_1_0: -7119237572562303235
+      4TUT_out_0: -6366383594555000197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
