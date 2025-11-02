@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 922185326205431834}
   - component: {fileID: 696790780462673957}
   - component: {fileID: 7043152371600596809}
+  - component: {fileID: -3515447884240847748}
   - component: {fileID: 2573621984364405390}
   - component: {fileID: 4378878709087657459}
   m_Layer: 0
@@ -149,6 +150,18 @@ MonoBehaviour:
   maxSpeed: 5
   acceleration: 3000
   friction: 15
+--- !u!114 &-3515447884240847748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4341346137398087366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b839762e451a88040875cf95f9474938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &2573621984364405390
 Rigidbody2D:
   serializedVersion: 5
@@ -211,4 +224,4 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 0.41
