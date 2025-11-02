@@ -1546,6 +1546,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3466449329757488924, guid: 206d47ba672a4a244bac2a97e1852ee4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466449329757488924, guid: 206d47ba672a4a244bac2a97e1852ee4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466449329757488924, guid: 206d47ba672a4a244bac2a97e1852ee4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4304327674419215404, guid: 206d47ba672a4a244bac2a97e1852ee4, type: 3}
       propertyPath: m_Name
       value: UI
